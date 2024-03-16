@@ -1,3 +1,2 @@
-from app import pipline_application
+from app import app 
 
-app = pipline_application()
