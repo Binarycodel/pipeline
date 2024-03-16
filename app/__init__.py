@@ -1,7 +1,10 @@
 from flask import Flask 
 
 
-app = Flask(__name__)
+def pipline_application():
 
+    app = Flask(__name__)
 
-from app import view
+    from app import view
+
+    return app
